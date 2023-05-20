@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+.tarea {
+    outline: 1px solid silver;
+    box-shadow: 1px 1px 5px 0px black;
+    width: 200px;
+    height: 85%;
+    display: inline-block;
+    margin-right: 35px;
+    padding: 10px;
+    
+    border-radius: 15px;
+}
+
+.tarea[estado='0'] {
+    background-color: whitesmoke;
+}
+.tarea[estado='1'] {
+    background-color: lightgoldenrodyellow;
+}
+.tarea[estado='2'] {
+    background-color: lightblue;
+}
+.tarea .titulo_tarea {
+    display: block;    
+}
+.tarea .descripcion_tarea {
+
+}
+
+body {
+    background-image: url("./assets/img/Fondo.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+div.contenedor_principal ul.list-group {
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px 0 black;  
+}
+
+div.contenedor_principal ul.list-group li {
+    width: 100%;
+}

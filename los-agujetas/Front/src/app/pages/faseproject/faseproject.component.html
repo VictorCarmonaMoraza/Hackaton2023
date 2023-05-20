@@ -1,0 +1,23 @@
+<div class="row contenedor_principal">
+  <div class="col-md-3 col-sm-12">
+
+    <img class="w-100" src="./assets/img/logo.png"/>
+    <!-- <app-fase-aprobation></app-fase-aprobation> -->
+    <h3>{{nombreUsuario}} </h3>
+    <br>
+    <ul class="list-group">
+      <li *ngFor="let item of menuNew"class="list-group-item " (click)="DataProject(item)"  routerLinkActive="active">
+        {{item}}
+      </li>
+    </ul>
+  </div>
+
+  <div class="col-md-9 col-sm-12">
+    <router-outlet></router-outlet>
+    <!--
+    <h1>{{titulo}}</h1>
+    <hr>
+    -->
+    <app-detalle-tarea [dataTitulo]="elementoSeleccionado"></app-detalle-tarea>
+  </div>
+</div>

@@ -1,0 +1,42 @@
+<div class="contenedor_titulo_proyecto row" (click)="clickTarea($event)">
+    <h2 id="titulo_proyecto" class="p-2" >{{dataTitulo}}</h2>
+    <hr/>
+</div>
+
+<div class="contenedor_tareas row" (click)="clickTarea($event)">
+    <div id="listado_tareas" class="w-100 h-100 p-2" >
+    </div>
+</div>
+
+<div class="contenedor_titulo_tarea row" (click)="clickTarea($event)">
+    <hr/>
+    <h3 id="titulo_tarea" class="p-2" >Descripción de la tarea</h3>
+
+</div>
+
+<div class="contenedor_detalles row">
+    <div class="col-4 h-100 p-2">
+        <div class="listado w-100 h-100">
+            <h4>Validadores</h4>
+            <div id="listado_validadores"></div>
+            <hr/>
+            <h4>Observadores</h4>
+            <div id="listado_observadores"></div>
+        </div>
+    </div>
+
+    <div class="col-4 h-100 p-2">
+        <div class="listado w-100 h-100">
+            <h4>Trabajadores</h4>
+            <div id="listado_trabajadores"></div>
+        </div>
+
+    </div>
+    <div class="col-4 h-100 p-2">
+        <div id="listado_comentarios" class="w-100 h-100">
+            <textarea class="w-100 h-100">Comentarios</textarea>
+            <input type="button" class="btn btn-success boton-validar" value="Validar"/>
+        </div>
+    </div>
+
+</div>

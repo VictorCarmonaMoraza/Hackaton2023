@@ -1,0 +1,12 @@
+<nav>
+  <div class="login">
+  <form class="custom-form" [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+    <h1>Login</h1>
+    <input type="text" name="usuario" formControlName="usuario"/>
+    <input type="password"  name="password" formControlName="password" />
+    <button type="submit" *ngIf="bloquear" (click)="login()" routerLink="/fase">Log in</button>
+  </form>
+  </div>
+</nav>
+<br>
+<!-- <h2>Validacion {{completado}}</h2> -->

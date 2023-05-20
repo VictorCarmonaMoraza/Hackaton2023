@@ -1,0 +1,65 @@
+.contenedor_titulo_proyecto {
+    height:10%;
+}
+
+.contenedor_tareas {
+    height: 25%;
+    /*background-color: aliceblue;*/
+    margin:0;
+    display: -webkit-box;
+}
+#listado_tareas {
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.contenedor_titulo_tarea {
+    height:10%;
+}
+
+.contenedor_titulo_tarea hr {
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+.contenedor_detalles {
+    height: 55%;
+    margin:0;
+}
+
+.listado {
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 0 black;
+    padding: 20px;
+}
+
+#listado_validadores {
+    height: 40%;
+    overflow-y: scroll;
+}
+#listado_observadores {
+    height: 35%;
+    overflow-y: scroll;
+}
+
+#listado_trabajadores {
+    height: 90%;
+    overflow-y: scroll;
+}
+
+#listado_comentarios textarea {
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 0 black;
+    padding: 15px;
+    background-color: rgb(255,255,255,0.6);
+    height: 80%!important;
+}
+
+input.boton-validar {
+    margin-top: 5%;
+    height: 15%;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 0 black;
+    font-size: 30px;
+}

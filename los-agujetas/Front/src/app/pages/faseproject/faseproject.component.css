@@ -1,0 +1,16 @@
+.contenedor_principal {
+  height: 100vh;
+  margin: 0;
+  padding: 20px 5px;
+}
+li {
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 20px;
+  background-color: #eee;
+  padding: 15px;
+}
+
+.activo {
+  background-color: #ccc;
+}
